@@ -1832,3 +1832,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+	p.contacts {
+		span.icon{
+			display: inline-block;
+			width:20px;
+		}
+	}
