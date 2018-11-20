@@ -60,3 +60,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+
+exclude:
+  - elements.html
+  - generic.html
