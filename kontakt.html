@@ -3,18 +3,20 @@ layout: page
 title: Kontaktujte nás
 ---
 <section>
-	<h4>Form</h4>
-	<form method="post" action="#">
+	<form method="post" action="https://formspree.io/luk355@email.com">
+		<input type="hidden" name="_next" value="diky.html" />
+		<input type="text" name="_gotcha" style="display:none" />
+
 		<div class="row uniform">
 			<div class="6u 12u$(xsmall)">
-				<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jméno" />
+				<input type="text" name="name" id="name" value="" placeholder="Jméno" />
 			</div>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+				<input type="email" name="_replyto" id="email" value="" placeholder="Email" />
 			</div>
 			<div class="12u$">
 				<div class="select-wrapper">
-					<select name="demo-category" id="demo-category">
+					<select name="category" id="category">
 						<option value="">- Kategorie -</option>
 						<option value="1">Nákup vín</option>
 						<option value="1">Řízená degustace</option>
@@ -24,16 +26,12 @@ title: Kontaktujte nás
 					</select>
 				</div>
 			</div>
-			<div class="6u 12u$(small)">
-				<input type="checkbox" id="demo-copy" name="demo-copy">
-				<label for="demo-copy">Pošlete mi kopii</label>
-			</div>
-			<div class="6u$ 12u$(small)">
-				<input type="checkbox" id="demo-human" name="demo-human" checked>
-				<label for="demo-human">Nejsem robot</label>
+			<div class="12u$">
+				<input type="checkbox" id="human" name="human">
+				<label for="human">Nejsem robot</label>
 			</div>
 			<div class="12u$">
-				<textarea name="demo-message" id="demo-message" placeholder="Napište zprávu" rows="6"></textarea>
+				<textarea name="message" id="message" placeholder="Napište zprávu" rows="6"></textarea>
 			</div>
 			<div class="12u$">
 				<ul class="actions">
