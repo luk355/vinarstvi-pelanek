@@ -1833,7 +1833,14 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
-	p.contacts {
+	ul.contacts {
+		list-style: none;
+		padding-left: 0;
+
+		li {
+			padding-left: 0;
+		}
+
 		span.icon{
 			display: inline-block;
 			width:20px;
