@@ -5,7 +5,7 @@ description: |
   ve Velké Bíteši.
 owner: Josef Pelánek # or company name
 first_published: 2018 # if migrating another site, the year of your first publish
-email: pelanek@seznam.cz
+email: info@vinarstvipelanek.cz
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vinarstvipelanek.cz" # the base hostname & protocol for your site
 social:
@@ -14,7 +14,7 @@ social:
   #linkedin-square: https://linkedin.com/in/<username>
   facebook-official: https://www.facebook.com/pg/Vinařství-Pelánek-1510129645951146
   #google-plus-square: https://plus.google.com/u/0/+<username>
-  email: pelanek@seznam.cz
+  email: info@vinarstvipelanek.cz
   #flickr:
   #instagram:
   #youtube-square:
