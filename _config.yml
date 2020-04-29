@@ -49,6 +49,9 @@ social:
   #tripadvisor:
   #amazon:
 
+collections:
+  - wines
+
 # Build settings
 markdown: kramdown
 #sass:

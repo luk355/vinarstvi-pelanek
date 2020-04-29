@@ -1,0 +1,33 @@
+---
+layout: page
+title: Nabídka vín
+---
+
+<section>
+	{% for wine in site.wines %}
+	<section class="wine">
+		<div class="image"><img src="images/vinice.jpg" alt="" /></div>
+		<div class="content">
+			<h2>{{ wine.name }}</h2>
+
+			<ul>
+				<li>Ročník: {{ wine.year }}</li>
+				<li>Alkohol: {{ wine.alcohol }}%</li>
+				<li>Cukernatost při sběru: {{ wine.sugar }}°ČNM</li>
+				<li>Cena: {{ wine.price }}Kč</li>
+			</ul>
+
+			<p>{{ wine.content | markdownify }}</p>
+		</div>
+	</section>
+	{% endfor %}
+</section>
+
+<hr />
+
+<section>
+	<ul class="actions">
+		<li><a href="#" class="button special">Objednat</a></li>
+		<li><a href="index.html" class="button">Zpět na hlavní stránku</a></li>
+	</ul>
+</section>
