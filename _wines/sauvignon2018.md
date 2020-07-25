@@ -7,7 +7,7 @@ residual-sugar: 15.4
 total-acidity: 4.6
 alcohol: 15.2
 price: 140
-image: cervene-vino-detail.jpg
+image: sauvignon-2018.jpg
 ---
 
 

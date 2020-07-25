@@ -7,7 +7,6 @@ residual-sugar:
 total-acidity: 
 alcohol: 12.5
 price: 130
-image: cervene-vino-detail.jpg
 ---
 
 Spíše lehčí červené víno s vůní višní v čokoládě vás v chuti zaujme smetanovou jemností borůvek a ostružin. Disponuje hedvábnou tříslovinkou a dlouhou dochutí.
