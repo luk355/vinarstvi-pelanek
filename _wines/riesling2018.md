@@ -1,9 +1,13 @@
 ---
-name: Riesling
-year: 2017
-alcohol: 12.4
-sugar: 21.5
-price: 130
+name: Ryzlink rýnský
+year: 2018
+category: suché
+brix: 22
+residual-sugar: 3.1
+total-acidity: 6.2
+alcohol: 12.7
+price: 120
+image: cervene-vino-detail.jpg
 ---
 
-Moc dobré víno to je!
+Příjemně aromatické víno žlutozelené barvy s jemnou vůní meruňky a lipového květu. Pikantní kyselinka dodává vínu potřebnou eleganci a svěžest. 
