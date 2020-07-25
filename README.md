@@ -2,6 +2,8 @@
 
 Web is based on [Spectral Jekyll theme](https://github.com/arkadianriver/spectral).
 
+View default page [here](http://arkadianriver.github.io/spectral/).
+
 ## Development
 
 1) Follow [jekyll quickstart guide](https://jekyllrb.com/docs/).
