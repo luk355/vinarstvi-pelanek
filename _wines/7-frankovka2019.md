@@ -8,5 +8,5 @@ total-acidity:
 alcohol: 12.5
 price: 130
 image: frankovka-2019.jpg
-text: Spíše lehčí červené víno s vůní višní v čokoládě vás v chuti zaujme smetanovou jemností borůvek a ostružin. Disponuje hedvábnou tříslovinkou a dlouhou dochutí.
+text: Spíše lehčí červené víno s vůní višní v čokoládě vás v chuti zaujme sametovou jemností borůvek a ostružin. Disponuje hedvábnou tříslovinkou a dlouhou dochutí.
 ---
