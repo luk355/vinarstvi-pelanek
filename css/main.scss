@@ -1878,9 +1878,17 @@ $baseurl: '{{ site.baseurl }}/images';
 			max-width: 48em;
 			width: 60%;
 
-			li {
-				list-style: none;
-				text-align: left;
+			h3 {
+				text-align: center;
+			}
+
+			ul {
+				padding: 0;
+				> li {
+					padding: 0;
+					text-align: center;
+					list-style: none;
+				}
 			}
 		}
 

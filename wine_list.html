@@ -25,9 +25,12 @@ Cras nec metus lacus. Etiam egestas at eros eu cursus. Quisque vel tellus mauris
 		<div class="content">
 			<h3>{{ wine.name }} {{ wine.year }}</h3>
 
-			<ul>
+			<ul class="wine-properties">
+				<li>Kategorie: {{ wine.category }}</li>
+				<li>Cukernatost hroznů při sklizni: {{ wine.brix }}°ČNM</li>
+				<li>Zbytkový cukr: {{ wine.residual-sugar }}</li>
+				<li>Celková kyselina: {{ wine.total-acidity }}</li>
 				<li>Alkohol: {{ wine.alcohol }}%</li>
-				<li>Cukernatost při sběru: {{ wine.sugar }}°ČNM</li>
 				<li>Cena: {{ wine.price }}Kč</li>
 			</ul>
 
