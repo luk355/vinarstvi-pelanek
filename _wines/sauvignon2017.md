@@ -7,6 +7,6 @@ residual-sugar: 32
 total-acidity: 6.0
 alcohol: 12.9
 price: 140
+image: sauvignon-2017.jpg
+text: Tento úžasně vyvážený Sauvignon s pevnou a přesnou strukturou a tóny přezrálého tropického ovoce je současnou perlou bílých vín našeho sortimentu! Ideální pro speciální příležitosti, ale i jako třešnička na dortu každého dne.
 ---
-
-Tento úžasně vyvážený Sauvignon s pevnou a přesnou strukturou a tóny přezrálého tropického ovoce je současnou perlou bílých vín našeho sortimentu! Ideální pro speciální příležitosti, ale i jako třešnička na dortu každého dne.

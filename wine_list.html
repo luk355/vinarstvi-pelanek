@@ -23,16 +23,15 @@ Cras nec metus lacus. Etiam egestas at eros eu cursus. Quisque vel tellus mauris
 			{% endif %}
 		</div>
 		<div class="content">
-			<h3>{{ wine.name }}</h3>
+			<h3>{{ wine.name }} {{ wine.year }}</h3>
 
 			<ul>
-				<li>Ročník: {{ wine.year }}</li>
 				<li>Alkohol: {{ wine.alcohol }}%</li>
 				<li>Cukernatost při sběru: {{ wine.sugar }}°ČNM</li>
 				<li>Cena: {{ wine.price }}Kč</li>
 			</ul>
 
-			<p>{{ wine.content | markdownify }}</p>
+			<p class="justify">{{ wine.text }}</p>
 		</div>
 	</section>
 	{% endfor %}
