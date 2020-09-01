@@ -9,3 +9,10 @@ View default page [here](http://arkadianriver.github.io/spectral/).
 1) Follow [jekyll quickstart guide](https://jekyllrb.com/docs/).
 1) Run `bundle exec jekyll serve`.
 1) Browse [http://localhost:4000](http://localhost:4000)
+
+
+## TODO
+
+* zmensit pismo nebo cele obrazky, pripadne dat vice vedle sebe
+* e-shop? 
+* upravit text
