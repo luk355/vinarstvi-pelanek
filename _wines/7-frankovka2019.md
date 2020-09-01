@@ -1,6 +1,6 @@
 ---
-name: Frankovka - vyprodáno
-year: 2019
+name: Frankovka
+year: 2019 - vyprodáno
 category: suché
 brix: 22
 residual-sugar: 

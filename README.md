@@ -18,3 +18,4 @@ View default page [here](http://arkadianriver.github.io/spectral/).
 * e-shop? kosiky nebo odkz "objednat" u kazdeho z vin, naklikat do kose, potom na emailovy formular, kde uz objednana vina budou. Doplnit adresu. Zpetne dostat email o potvrzeni objednavky. Cena dopravy 140kc.
 * upravit text
 * texty 4 sekcí do bloku
+* medovina odstranit kategorie
