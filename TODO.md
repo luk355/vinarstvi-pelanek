@@ -1,7 +1,15 @@
 # TODO
 
-* e-shop? kosiky nebo odkz "objednat" u kazdeho z vin, naklikat do kose, potom na emailovy formular, kde uz objednana vina budou. Doplnit adresu. Zpetne dostat email o potvrzeni objednavky. Cena dopravy 140kc.
-* replace emailing solution
+## E-shop feature required
+
+* replace emailing solution - @Lukas
+* pridat bagging-box info - @Zuzana
+* aktualizovat seznam vin - @Zuzana
+* doplnit text na cart/checkout - @Zuzana
+* schovat kosik u 0 objednavek? - @Lukas
+
+## others
+
 * opravit link na vina - @Lukas
 * zmensit pismo nebo cele obrazky, pripadne dat vice vedle sebe
 * upravit text
