@@ -6,5 +6,10 @@
 <script src="{{ "./js/util.js" | prepend: site.baseurl }}"></script>
 <!--[if lte IE 8]><script src="{{ "/js/ie/respond.min.js" | prepend: site.baseurl }}"></script><![endif]-->
 <script src="{{ "./js/main.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "./js/simpleCart.js" | prepend: site.baseurl }}"></script>
+
+{% if page.url == '/checkout.html' %}
+    <script src="{{ "./js/checkout.js" | prepend: site.baseurl }}"></script>
+{% endif %}
 
 {% include google_analytics.html %}
