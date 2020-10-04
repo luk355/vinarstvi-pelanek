@@ -7,6 +7,7 @@ residual-sugar:
 total-acidity: 
 alcohol: 12.5
 price: 150
+sold-out: true
 image: frankovka-2019.jpg
 ---
 

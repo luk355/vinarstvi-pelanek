@@ -10,7 +10,7 @@
 * doplnit text na cart/checkout - @Zuzana
 * text ktery se posle cloveku v emailu - @Zuzana
 * u sesti lahvi postovne zdarma?
-* add sold out flag - hide add to shopping basket button
+* ~~add sold out flag - hide add to shopping basket button~~
 * NASE VINA SUDOVA zuz
 
 ## others

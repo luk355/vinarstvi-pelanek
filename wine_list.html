@@ -40,10 +40,11 @@ title: Nabídka vín
 
 			<div class="justify">{{ wine.content }}</div>
 
+			{% if wine.sold-out != true %}
 			<ul class="actions center">
 				<li><a class="item_add button" href="javascript:;">Přidat do košíku</a></li>
 			</ul>
-
+			{% endif %}
 		</div>
 	</section>
 	{% endif %}
