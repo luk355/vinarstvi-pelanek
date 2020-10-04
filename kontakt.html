@@ -22,10 +22,13 @@ title: Kontaktujte nás
 
 		<div class="row uniform">
 			<div class="6u 12u$(xsmall)">
-				<input type="text" name="name" id="name" value="" placeholder="Jméno" />
+				<input type="text" name="name" id="name" value="" placeholder="Jméno" required/>
 			</div>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="email" name="_replyto" id="email" value="" placeholder="Email" />
+				<input type="email" name="_replyto" id="email" value="" placeholder="Email" required/>
+			</div>
+			<div class="12u$">
+				<input type="text" name="phone" id="phone" value="" placeholder="Telefon"/>
 			</div>
 			<div class="12u$">
 				<div class="select-wrapper">
@@ -40,11 +43,11 @@ title: Kontaktujte nás
 				</div>
 			</div>
 			<div class="12u$">
-				<input type="checkbox" id="human" name="human">
+				<input type="checkbox" id="human" name="human" required>
 				<label for="human">Nejsem robot</label>
 			</div>
 			<div class="12u$">
-				<textarea name="message" id="message" placeholder="Napište zprávu" rows="6"></textarea>
+				<textarea name="message" id="message" placeholder="Napište zprávu" rows="6" required></textarea>
 			</div>
 			<div class="12u$">
 				<ul class="actions">

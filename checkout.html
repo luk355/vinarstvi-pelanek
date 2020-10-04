@@ -1,0 +1,59 @@
+---
+title: Objednávka
+layout: page
+description:
+sitemap: false
+exclude: true
+---
+
+<section>
+  <h3>TODO</h3>
+  <ul>
+    <li>Jak se bude posilat?</li>
+    <li>Kdy to dojde?</li>
+    <li>Osobni vyzvednuti?</li>
+    <li>Zobrazit pouze staticke informace o objednavce</li>
+  </ul>
+</section>
+
+
+<section>
+  <div class="simpleCart_items"></div>
+</section>
+
+<section>
+  <form method="post" action="https://formspree.io/luk355@gmail.com">
+    <input type="hidden" name="_next" value="diky.html" />
+    <input type="hidden" name="_subject" value="Vinařství Pelánek: objednávka" />
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <label>Osobní údaje</label>
+    <div class="row uniform">
+      <div class="6u 12u$(xsmall)">
+        <input type="text" name="name" id="name" value="" placeholder="Jméno" required/>
+      </div>
+      <div class="6u$ 12u$(xsmall)">
+        <input type="email" name="_replyto" id="email" value="" placeholder="Email" required/>
+      </div>
+      <div class="12u$">
+        <input type="text" name="phone" id="phone" value="" placeholder="Telefon" required/>
+      </div>
+      <div class="12u$">
+        <input type="checkbox" id="human" name="human" required>
+        <label for="human">Nejsem robot</label>
+      </div>
+      <div class="12u$">
+        <label>Dodací adresa</label>
+        <input type="text" name="ship-address" placeholder="Adresa" autocomplete="shipping street-address" required>
+        <input type="text" name="ship-city" placeholder="Město" autocomplete="shipping locality" required>
+        <input type="text" name="ship-zip" placeholder="PSČ" autocomplete="shipping postal-code" required>
+      </div>
+      <div class="12u$">
+        <ul class="actions">
+          <li><input type="submit" value="Odeslat objednávku" class="special" /></li>
+          <!-- <li><input type="reset" value="Zrušit" /></li> -->
+        </ul>
+      </div>
+    </div>
+  </form>
+</section>
