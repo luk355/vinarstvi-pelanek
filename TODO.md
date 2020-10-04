@@ -8,6 +8,7 @@
     * smazat prodane
     * doplnit charakteristiku vin
 * doplnit text na cart/checkout - @Zuzana
+* text ktery se posle cloveku v emailu - @Zuzana
 * u sesti lahvi postovne zdarma?
 * add sold out flag - hide add to shopping basket button
 
