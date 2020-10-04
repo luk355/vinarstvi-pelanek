@@ -7,5 +7,6 @@ residual-sugar:
 total-acidity: 
 alcohol: 
 price: 130
-text: Toto víno okamžitě ohromí svým výrazným ovocitým aroma kde dominují broskve a papája. V chuti řízné a šťavnaté je ideálním osvěžením do horkého letního dne.
 ---
+
+Toto víno okamžitě ohromí svým výrazným ovocitým aroma kde dominují broskve a papája. V chuti řízné a šťavnaté je ideálním osvěžením do horkého letního dne.

@@ -7,3 +7,4 @@
 * texty 4 sekcí do bloku
 * ~~medovina odstranit kategorie~~
 * replace emailing solution
+* add sold out flag - hide add to shopping basket button

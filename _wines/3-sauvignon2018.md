@@ -8,5 +8,6 @@ total-acidity: 4.6
 alcohol: 15.2
 price: 160
 image: sauvignon-2018.jpg
-text: Toto plné, intenzivní, a opravdu tělnaté víno slámově žluté barvy nadchne nádhernou vůní mučenky, v chuťi doprovázenou zřetelnými tóny sušených fíků a medu. Dokonale se snoubí s hořkou čokoládou, dezerty a sýry s modrou plísní.
 ---
+
+Toto plné, intenzivní, a opravdu tělnaté víno slámově žluté barvy nadchne nádhernou vůní mučenky, v chuťi doprovázenou zřetelnými tóny sušených fíků a medu. Dokonale se snoubí s hořkou čokoládou, dezerty a sýry s modrou plísní.

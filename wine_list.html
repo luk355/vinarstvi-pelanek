@@ -13,6 +13,8 @@ title: Nabídka vín
 
 <section>
 	{% for wine in site.wines %}
+
+	{% if wine.disabled != true %}
 	<section class="wine simpleCart_shelfItem">
 		<div class="image">
 			{% if wine.image %}
@@ -44,7 +46,7 @@ title: Nabídka vín
 				<li class="item_price">Cena: {{ wine.price }}Kč</li>
 			</ul>
 
-			<p class="justify">{{ wine.text }}</p>
+			<div class="justify">{{ wine.content }}</div>
 
 			<ul class="actions center">
 				<li><a class="item_add button" href="javascript:;">Přidat do košíku</a></li>
@@ -52,6 +54,8 @@ title: Nabídka vín
 
 		</div>
 	</section>
+	{% endif %}
+	
 	{% endfor %}
 </section>
 
