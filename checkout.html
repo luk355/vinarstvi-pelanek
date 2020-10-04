@@ -11,22 +11,34 @@ Děkujeme za Váš nákup ve vinařství Pelánek! Po obdržení objednávky Vá
 </p>
 
 <section>
-  <h3>TODO</h3>
-  <ul>
-    <li>Jak se bude posilat?</li>
-    <li>Kdy to dojde?</li>
-    <li>Jak se to bude platit?</li>
-    <li>Osobni vyzvednuti?</li>
-    <li>Zobrazit pouze staticke informace o objednavce</li>
-  </ul>
+  <h3>Souhrn objednávky</h3>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Produkt</th>
+          <th>Cena</th>
+          <th>Počet</th>
+          <th>Celkem</th>
+        </tr>
+      </thead>
+      <tbody id="purchased">
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <ul class="purchase-info">
+        <li>Cena celkem: <span class="simpleCart_total"></span></li>
+        <li>Množství: <span class="simpleCart_quantity"></span> ks</li>
+        <li>Poštovné: <span class="simpleCart_shipping"></span></li>
+        <li>Celkem: <span class="simpleCart_grandTotal"></span><br></li>
+    </ul>
+  </div>
 </section>
 
-
 <section>
-  <div class="simpleCart_items"></div>
-</section>
-
-<section>
+  <h3>Doručovací údaje</h3>
   <form method="post" action="https://formspree.io/luk355@gmail.com">
     <input type="hidden" name="_next" value="diky.html" />
     <input type="hidden" name="_subject" value="Vinařství Pelánek: objednávka" />
@@ -61,7 +73,6 @@ Děkujeme za Váš nákup ve vinařství Pelánek! Po obdržení objednávky Vá
       <div class="12u$">
         <ul class="actions">
           <li><input type="submit" value="Odeslat objednávku" class="special" /></li>
-          <!-- <li><input type="reset" value="Zrušit" /></li> -->
         </ul>
       </div>
     </div>

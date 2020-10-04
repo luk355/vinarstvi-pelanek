@@ -588,6 +588,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		&.purchase-info {
+			list-style: none;
+			padding-left: 0.25em;
+		}
+
 		&.icons {
 			cursor: default;
 			list-style: none;
