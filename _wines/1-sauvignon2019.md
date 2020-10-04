@@ -7,6 +7,7 @@ residual-sugar:
 total-acidity: 
 alcohol: 
 price: 130
+disabled: true
 ---
 
 Krásně pitelné ohebné víno spíše neutrálnějšího charakteru, které učaruje svou hedvábnou květinovostí. Svou univerzálností v chuti i snoubení s pokrmy potěší snad nejširší spektrum vinných nadšenců (nasich odberatelu?). My ho však nejvíce milujeme v kombinaci s pokrmy z italské kuchyně.

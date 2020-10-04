@@ -6,7 +6,7 @@ brix: 22
 residual-sugar: 
 total-acidity: 
 alcohol: 12.5
-price: 140
+price: 150
 image: frankovka-2019.jpg
 ---
 
