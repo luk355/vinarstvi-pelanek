@@ -2,10 +2,10 @@
 name: Ryzlink rýnský
 year: 2019
 category: suché
-brix: 
-residual-sugar: 
-total-acidity: 
-alcohol: 
+brix: 22
+residual-sugar: 1.0
+total-acidity: 6.4
+alcohol: 12.2
 price: 140
 ---
 

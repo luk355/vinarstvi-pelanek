@@ -3,8 +3,8 @@ name: Sauvignon
 year: 2018
 category: polosladké
 brix: 27.5
-residual-sugar: 15.4
-total-acidity: 4.6
+residual-sugar: 16.6
+total-acidity: 4.9
 alcohol: 15.2
 price: 170
 image: sauvignon-2018.jpg
