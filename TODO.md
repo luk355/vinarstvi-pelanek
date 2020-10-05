@@ -3,6 +3,8 @@
 ## E-shop feature required
 
 * replace emailing solution - @Lukas
+* "nejsem robot", kontaktujte nas zarovnat na stred  @Lukas
+* vycistit kosik @Lukas
 * aktualizovat seznam vin - @Zuzana
     * pridat bagging-box info - @Zuzana
     * ~~smazat prodane~~

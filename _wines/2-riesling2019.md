@@ -9,4 +9,4 @@ alcohol:
 price: 130
 ---
 
-Toto víno okamžitě ohromí svým výrazným ovocitým aroma kde dominují broskve a papája. V chuti řízné a šťavnaté je ideálním osvěžením do horkého letního dne.
+Toto víno ohromí svým výrazným ovocitým aroma kde dominují broskve a papája. V chuti řízné a šťavnaté je ideálním osvěžením do horkého letního dne.
