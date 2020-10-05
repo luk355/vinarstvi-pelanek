@@ -6,7 +6,7 @@ brix: 22
 residual-sugar: 3.1
 total-acidity: 6.2
 alcohol: 12.7
-price: 150
+price: 160
 image: ryzlink-rynsky-2018.jpg
 ---
 

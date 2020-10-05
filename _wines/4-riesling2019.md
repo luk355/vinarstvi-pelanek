@@ -6,7 +6,7 @@ brix:
 residual-sugar: 
 total-acidity: 
 alcohol: 
-price: 130
+price: 140
 ---
 
 Toto víno ohromí svým výrazným ovocitým aroma kde dominují broskve a papája. V chuti řízné a šťavnaté je ideálním osvěžením do horkého letního dne.

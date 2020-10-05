@@ -6,7 +6,7 @@ brix:
 residual-sugar: 
 total-acidity: 
 alcohol: 
-price: 130
+price: 140
 disabled: true
 ---
 
