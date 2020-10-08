@@ -7,6 +7,10 @@
 <!--[if lte IE 8]><script src="{{ "/js/ie/respond.min.js" | prepend: site.baseurl }}"></script><![endif]-->
 
 <script src="{{ "./js/simpleCart.js" | prepend: site.baseurl }}"></script>
+
+{% if page.url == '/vina.html' %}
+    <script src="{{ "./js/add-to-cart.js" | prepend: site.baseurl }}"></script>
+{% endif %}
 {% if page.url == '/objednavka.html' %}
     <script src="{{ "./js/checkout.js" | prepend: site.baseurl }}"></script>
 {% endif %}

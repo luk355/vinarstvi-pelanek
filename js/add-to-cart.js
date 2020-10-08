@@ -1,10 +1,13 @@
-jQuery('#item_add').click(function() {
-    // TODO DOES NOT WORK
-
+$(document).ready(function () {
+  $('.item_add').click(function () {
+    $('#cart-menu').addClass('shake');
+    
+    setTimeout(function() {
+      $('#cart-menu').removeClass('shake');
+    }, 3000);
+    
     $('html, body').animate({
       scrollTop: 0
-    }, 100);
-  
-    $('#cart-menu').addClass('animated shake');
-  
-  });
+    }, 30);
+  })
+});
