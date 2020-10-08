@@ -1,6 +1,6 @@
 ---
-name: Pelánkovic medovina 0,75l
-year: 2015
+name: Pelánkovic medovina
+year: 2015, 0,75l
 alcohol: 
 price: 160
 image: medovina-2015.jpg
