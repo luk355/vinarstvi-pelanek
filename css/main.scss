@@ -1895,6 +1895,10 @@ $baseurl: '{{ site.baseurl }}/images';
 					list-style: none;
 				}
 			}
+
+			.wine-selection {
+				margin-bottom: 2em;
+			}
 		}
 
 		&:nth-child(odd) {

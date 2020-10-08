@@ -41,14 +41,30 @@ title: Nabídka vín
 			<div class="justify">{{ wine.content }}</div>
 
 			{% if wine.sold-out != true %}
-			<ul class="actions center">
-				<li><a class="item_add button" href="javascript:;">Přidat do košíku</a></li>
-			</ul>
+			
+				
+			{% if wine.selection %}
+			<div class="wine-selection">
+				<label for="selection">Vyberte variantu:</label>
+				<select name="selection" class="item_selection">
+					<option value="">  </option>
+					{% for selection in wine.selection %}
+					<option value="{{ selection }}"> {{ selection }} </option>
+					{% endfor %}
+				</select>
+			</div>
+			{% endif %}
+			
+			<div>
+				<ul class="actions center">
+					<li><a class="item_add button" href="javascript:;">Přidat do košíku</a></li>
+				</ul>
+			</div>
 			{% endif %}
 		</div>
 	</section>
 	{% endif %}
-	
+
 	{% endfor %}
 </section>
 

@@ -7,7 +7,10 @@ residual-sugar:
 total-acidity: 
 alcohol: 
 price: 430
-image: bag-in-box-3+5l.jpg 
+image: bag-in-box-3+5l.jpg
+selection:
+    - Sauvignon 2019 polosuché
+    - Ryzlink rýnský 2019 suché
 ---
 
 Dostupný sortiment: Sauvignon 2019 polosuché, Ryzlink rýnský 2019 suché

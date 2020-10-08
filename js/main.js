@@ -99,27 +99,20 @@
 
 	simpleCart({
 
-		// checkout: {
-		// 	type: "PayPal",
-		// 	email: "pelanek@seznam.cz",
-		// },
-
 		checkout: {
 			type: "SendForm",
 			method: "POST",
 			url: "https://formspree.io/luk355@gmail.com",
 		},
 
-		// tax: 0.075,
 		currency: "CZK",
 		shippingFlatRate: 140,
 		cartStyle: "table",
 
 		cartColumns: [
 			{ attr: "name", label: "Produkt" },
+			{ attr: "selection", label: "Podkategorie" },
 			{ attr: "price", label: "Cena", view: 'currency' },
-			// { attr: "size", label: "Size" },
-			// { attr: "color", label: "Color" },
 			{ view: "decrement", label: false, text: "- 1" },
 			{ attr: "quantity", label: "Počet" },
 			{ view: "increment", label: false, text: "+ 1" },
@@ -127,16 +120,6 @@
 			{ view: "remove", text: "Odebrat", label: false }
 		]
 	});
-
-	// simpleCart.currency({
-	// code: "THB",
-	// name: "Thai Baht",
-	// symbol: "&#3647;",
-	// delimiter: " ",
-	// decimal: ",",
-	// after: true,
-	// accuracy: 0
-	// });
 
 	//* Refresh cart once simpleCart is ready to listen.
 	simpleCart.ready(function () {
