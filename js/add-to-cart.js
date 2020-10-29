@@ -5,9 +5,5 @@ $(document).ready(function () {
     setTimeout(function() {
       $('#cart-menu').removeClass('shake');
     }, 3000);
-    
-    $('html, body').animate({
-      scrollTop: 0
-    }, 30);
   })
 });
