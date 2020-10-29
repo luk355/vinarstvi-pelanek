@@ -1,10 +1,9 @@
 # Site settings
 title: Vinařství Pelánek
-description: |
-  Rodinné vinařství s vinným sklepem  
-  ve Velké Bíteši.
+description: Rodinné vinařství s vinným sklepem ve Velké Bíteši, poctivými víny a nově i zasláním až k Vám domu.
 owner: Josef Pelánek # or company name
 first_published: 2018 # if migrating another site, the year of your first publish
+lang: cs_cz
 email: info@vinarstvipelanek.cz
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vinarstvipelanek.cz" # the base hostname & protocol for your site
