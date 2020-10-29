@@ -47,8 +47,7 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 			{% if wine.selection %}
 			<div class="wine-selection">
 				<label for="selection">Vyberte variantu:</label>
-				<select name="selection" class="item_selection">
-					<option value="">  </option>
+				<select name="selection" class="item_selection" required>
 					{% for selection in wine.selection %}
 					<option value="{{ selection }}"> {{ selection }} </option>
 					{% endfor %}
