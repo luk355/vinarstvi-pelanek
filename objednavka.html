@@ -38,9 +38,9 @@ Po obdržení objednávky Vám obratem emailem pošleme instrukce k platbě pře
   </div>
 </section>
 
-<section>
+<section id="order-form-section">
   <h3>Doručovací údaje</h3>
-  <form method="post" action="https://formspree.io/objednavka@vinarstvipelanek.cz">
+  <form id="order-form" action="https://formspree.io/f/xoqpjyvy" method="POST">
     <input type="hidden" name="_next" value="diky.html" />
     <input type="hidden" name="_subject" value="Vinařství Pelánek: objednávka" />
     <input type="text" name="_gotcha" style="display:none" />
@@ -65,13 +65,22 @@ Po obdržení objednávky Vám obratem emailem pošleme instrukce k platbě pře
 
       <div class="12u$">
         <label>Dodatečné informace</label>
-				<textarea name="message" id="message" placeholder="Připojte pochvalu, nápad na vylepšení, či bližší požadavek k Vaší objednávce." rows="6" required></textarea>
+				<textarea name="message" id="message" placeholder="Připojte pochvalu, nápad na vylepšení, či bližší požadavek k Vaší objednávce." rows="6"></textarea>
 			</div>
       <div class="12u$">
         <ul class="actions">
-          <li><input type="submit" value="Odeslat objednávku" class="special" /></li>
+          <li><input type="submit" value="Odeslat objednávku" class="special" id="submit-button" /></li>
         </ul>
+        <p id="form-status"></p>
       </div>
     </div>
   </form>
+</section>
+
+<section id="submit-success-section" style="display: none;">
+  <h3>Objednávka byla odeslána</h3>
+  <p>
+    Děkujeme za Vaši objednávku! Objednávka byla v pořádku odeslána a my Vás budeme v co nejbližší době kontaktovat s jejím potvrzením a informacemi k platbě. Uděláme vše pro to, aby naše víno co nejdříve dorazilo k Vám. Mějte pěkný zbytek dne!
+  </p>
+
 </section>
