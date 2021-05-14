@@ -1,5 +1,5 @@
 ---
-name: sudová vína "bag in box" 3l
+name: "bag in box" 3l
 year: 
 category: 
 brix: 

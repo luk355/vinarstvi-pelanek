@@ -1,5 +1,5 @@
 ---
-name: Ryzlink rýnský
+name: Ryzlink rýnský - vyprodáno
 year: 2018
 category: suché
 brix: 22
