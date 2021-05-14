@@ -36,8 +36,8 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 				{% if wine.alcohol %}
 				<li>Alkohol: {{ wine.alcohol }}% obj.</li>
 				{% endif %}
-				{% if volume %}
-				<li>Objem: {{ volume }} l</li>
+				{% if wine.volume %}
+				<li>Objem: {{ wine.volume }} l</li>
 				{% endif %}
 				<li class="item_price">Cena: {{ wine.price }}Kč</li>
 			</ul>
