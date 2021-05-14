@@ -7,6 +7,7 @@ residual-sugar:
 total-acidity: 
 alcohol: 
 price: 140
+volume: 0.75
 disabled: true
 ---
 

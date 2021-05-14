@@ -6,6 +6,7 @@ brix: 27.5
 residual-sugar: 16.6
 total-acidity: 4.9
 alcohol: 15.2
+volume: 0.75
 price: 170
 image: sauvignon-2018.jpg
 ---

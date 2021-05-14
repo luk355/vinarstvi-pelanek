@@ -6,6 +6,7 @@ brix: 22
 residual-sugar: 1.0
 total-acidity: 6.4
 alcohol: 12.2
+volume: 0.75
 price: 140
 ---
 
