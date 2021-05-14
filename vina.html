@@ -28,13 +28,13 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 				<li>Cukernatost hroznů při sklizni: {{ wine.brix }}°ČNM</li>
 				{% endif %}
 				{% if wine.residual-sugar %}
-				<li>Zbytkový cukr: {{ wine.residual-sugar }}</li>
+				<li>Zbytkový cukr: {{ wine.residual-sugar }}g/l</li>
 				{% endif %}
 				{% if wine.total-acidity %}
-				<li>Celková kyselina: {{ wine.total-acidity }}</li>
+				<li>Celková kyselina: {{ wine.total-acidity }}g/l</li>
 				{% endif %}
 				{% if wine.alcohol %}
-				<li>Alkohol: {{ wine.alcohol }}%</li>
+				<li>Alkohol: {{ wine.alcohol }}% obj.</li>
 				{% endif %}
 				<li class="item_price">Cena: {{ wine.price }}Kč</li>
 			</ul>
