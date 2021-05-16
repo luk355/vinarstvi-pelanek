@@ -1,5 +1,5 @@
 ---
-name: "bag in box" 3l
+name: Bag in box 3l
 year: 
 category: 
 brix: 
