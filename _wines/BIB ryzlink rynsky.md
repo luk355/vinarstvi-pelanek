@@ -1,18 +1,16 @@
 ---
-name: Bag in box 10l
-year: 
-category: 
+name: BIB Ryzlink rýnský 
+year: 2019 
+category: suché
 brix: 
 residual-sugar: 
 total-acidity: 
 alcohol: 
-price: 800 
+price:  
 image: bag-in-box-3+5l.jpg 
 selection:
-    - Sauvignon 2019 polosuché
-    - Ryzlink rýnský 2019 suché
+    - 3 litry
+    - 5 litrů
 ---
-
-Dostupný sortiment: Sauvignon 2019 polosuché, Ryzlink rýnský 2019 suché
 
 Metodu BIB volíme jako moderní efektivní způsob distribuce kvalitních vín. Je velice uživatelsky přívětivá, umožňuje snadné skladování, rozlévání, i bezpečnou dopravu až k vám do domu. 
