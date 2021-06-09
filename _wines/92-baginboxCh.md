@@ -1,5 +1,5 @@
 ---
-name: BIB Chardonnay
+name: Chardonnay
 year: 2020
 category: suché
 brix: 

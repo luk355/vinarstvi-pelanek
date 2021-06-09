@@ -1,5 +1,5 @@
 ---
-name: BIB Sauvignon 2020 suché
+name: Sauvignon
 year: 2020
 category: suché
 brix: 

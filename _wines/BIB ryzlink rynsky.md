@@ -1,5 +1,5 @@
 ---
-name: BIB Ryzlink rýnský 
+name: Ryzlink rýnský 
 year: 2019 
 category: suché
 brix: 

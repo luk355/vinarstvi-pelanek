@@ -1,5 +1,5 @@
 ---
-name: BIB Veltlínské červené rané 
+name: Veltlínské červené rané 
 year: 2020 
 category: polosuché
 brix: 
