@@ -11,4 +11,4 @@ price: 140
 image: ryzlink-rynsky-2018.jpg
 ---
 
-Toto víno ohromí svým výrazným ovocitým aroma kde dominují broskve a papája. V chuti řízné a šťavnaté je ideálním osvěžením do horkého letního dne.
+Tento Ryzlink se vyznačuje jemným aroma meruňky a lipového květu. V chuti je víno zřetelně citrusovo-limetkové, řízné a šťavnaté. Je ideálním osvěžením do horkých letních dnů.

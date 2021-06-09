@@ -9,6 +9,7 @@ alcohol: 12.7
 volume: 0.75
 price: 160
 sold out: true
+disabled: true
 image: ryzlink-rynsky-2018.jpg
 ---
 
