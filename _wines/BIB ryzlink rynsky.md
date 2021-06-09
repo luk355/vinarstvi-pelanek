@@ -13,4 +13,4 @@ selection:
     - 5 litrů
 ---
 
-Metodu BIB volíme jako moderní efektivní způsob distribuce kvalitních vín. Je velice uživatelsky přívětivá, umožňuje snadné skladování, rozlévání, i bezpečnou dopravu až k vám do domu. 
+Balení Bag in Box volíme jako moderní a efektivní způsob prodeje vín. Umožňuje snadné plnění, pohodlné skladování, rozlévání i bezpečnou dopravu až k vám do domu. Ale největší výhodou je to, že při postupné konzumaci vína se obal smršťuje, nevzniká tím žádný volný prostor a nedochází tak k nežádoucí oxidaci vína.
