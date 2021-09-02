@@ -6,7 +6,6 @@ brix:
 residual-sugar: 
 total-acidity: 
 alcohol: 
-price: 
 image: bag-in-box-3+5l.jpg
 selection:
     - 3 litry

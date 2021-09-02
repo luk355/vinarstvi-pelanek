@@ -111,11 +111,10 @@
 
 		cartColumns: [
 			{ attr: "name", label: "Produkt" },
-			{ attr: "selection", label: "Podkategorie" },
 			{ attr: "price", label: "Cena", view: 'currency' },
-			{ view: "decrement", label: false, text: "- 1" },
+			{ view: "decrement", label: false, text: "↓" },
 			{ attr: "quantity", label: "Počet" },
-			{ view: "increment", label: false, text: "+ 1" },
+			{ view: "increment", label: false, text: "↑" },
 			{ attr: "total", label: "Celkem", view: 'currency' },
 			{ view: "remove", text: "Odebrat", label: false }
 		]

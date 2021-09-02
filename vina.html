@@ -5,8 +5,13 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 ---
 
 <section>
-	{% for wine in site.wines %}
+	<ul class="actions center">
+		<li><a id="bottled-wine-button" class="button special">Lahvová</a></li>
+		<li><a id="barell-wine-button" class="button">Stáčená</a></li>
+	</ul>
 
+	<section id="bottled-wine">
+	{% for wine in site.wines %}
 	{% if wine.disabled != true %}
 	<section class="wine simpleCart_shelfItem">
 		<div class="image">
@@ -43,32 +48,83 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 			</ul>
 
 			<div class="justify">{{ wine.content }}</div>
-
-			{% if wine.sold-out != true %}
-			
 				
-			{% if wine.selection %}
+			<div>
+				<ul class="actions center">
+					<li><a class="item_add button" href="javascript:;">Přidat do košíku</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	{% endif %}
+	{% endfor %}
+	</section>
+
+	<section id="barell-wine" class="hidden">
+	<p>
+		Balení Bag in Box volíme jako moderní a efektivní způsob prodeje vín. Umožňuje snadné plnění, pohodlné skladování, rozlévání i bezpečnou dopravu až k vám do domu. Ale největší výhodou je to, že při postupné konzumaci vína se obal smršťuje, nevzniká tím žádný volný prostor a nedochází tak k nežádoucí oxidaci vína.
+	</p1>
+
+	{% for wine in site.wines-bib %}
+	{% if wine.disabled != true %}
+	<section class="wine simpleCart_shelfItem">
+		<div class="image">
+			{% if wine.image %}
+			<img src="images/wines/{{wine.image}}" alt="" />
+			{% else %}
+			<!-- TODO add different default image -->
+			<img src="images/default-glass.jpg" alt="" />
+			{% endif %}
+		</div>
+		<div class="content">
+			<h3>{{ wine.name }} {{ wine.year }}</h3>
+			
+			<hidden class="item_name">{{ wine.name }} {{ wine.year }} BIB</hidden>
+			<hidden class="item_price"></hidden>
+
+			<ul class="wine-properties">
+				{% if wine.category %}
+				<li>Kategorie: {{ wine.category }}</li>
+				{% endif %}
+				{% if wine.brix %}
+				<li>Cukernatost hroznů při sklizni: {{ wine.brix }}° ČNM</li>
+				{% endif %}
+				{% if wine.residual-sugar %}
+				<li>Zbytkový cukr: {{ wine.residual-sugar }} g/l</li>
+				{% endif %}
+				{% if wine.total-acidity %}
+				<li>Celková kyselina: {{ wine.total-acidity }} g/l</li>
+				{% endif %}
+				{% if wine.alcohol %}
+				<li>Alkohol: {{ wine.alcohol }}% obj.</li>
+				{% endif %}
+				{% if wine.volume %}
+				<li>Objem: {{ wine.volume }} l</li>
+				{% endif %}
+				<!-- <li class="item_price">Cena: {{ wine.price }}Kč</li> -->
+			</ul>
+
+			<div class="justify">{{ wine.content }}</div>
+
 			<div class="wine-selection">
 				<label for="selection">Vyberte variantu:</label>
 				<select name="selection" class="item_selection" required>
 					{% for selection in wine.selection %}
-					<option value="{{ selection }}"> {{ selection }} </option>
+					<option data-wine="{{ wine.name }}" data-year="{{ wine.year }}"  data-price="{{ selection.price }}" data-volume="{{ selection.volume }}"> {{ selection.volume }}, {{ selection.price }}Kč </option>
 					{% endfor %}
 				</select>
 			</div>
-			{% endif %}
 			
 			<div>
 				<ul class="actions center">
 					<li><a class="item_add button" href="javascript:;">Přidat do košíku</a></li>
 				</ul>
 			</div>
-			{% endif %}
 		</div>
 	</section>
 	{% endif %}
-
 	{% endfor %}
+	</section>
 </section>
 
 <hr />

@@ -50,6 +50,7 @@ social:
 
 collections:
   - wines
+  - wines-bib
 
 # Build settings
 markdown: kramdown
