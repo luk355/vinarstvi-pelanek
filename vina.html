@@ -79,8 +79,8 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 		<div class="content">
 			<h3>{{ wine.name }} {{ wine.year }}</h3>
 			
-			<hidden class="item_name">{{ wine.name }} {{ wine.year }} BIB</hidden>
-			<hidden class="item_price"></hidden>
+			<span class="item_name" hidden>{{ wine.name }} {{ wine.year }} BIB</span>
+			<span display class="item_price" hidden></span>
 
 			<ul class="wine-properties">
 				{% if wine.category %}
