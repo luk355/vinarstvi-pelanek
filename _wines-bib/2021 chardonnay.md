@@ -1,5 +1,5 @@
 ---
-name: Veltlínské červené rané 
+name: Chardonnay
 year: 2021
 category: suché
 brix: 
