@@ -10,6 +10,8 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 		<li><a id="barell-wine-button" class="button">Stáčená</a></li>
 	</ul>
 
+	<hr />
+
 	<section id="bottled-wine">
 	{% for wine in site.wines %}
 	{% if wine.disabled != true %}
@@ -61,9 +63,11 @@ excerpt: Aktualní nabídka vín rodinného vinařství Pelánek. Tyto vína lze
 	</section>
 
 	<section id="barell-wine" class="hidden">
-	<p>
+	<p style="text-align: justify;">
 		Balení Bag in Box volíme jako moderní a efektivní způsob prodeje vín. Umožňuje snadné plnění, pohodlné skladování, rozlévání i bezpečnou dopravu až k vám do domu. Ale největší výhodou je to, že při postupné konzumaci vína se obal smršťuje, nevzniká tím žádný volný prostor a nedochází tak k nežádoucí oxidaci vína.
-	</p1>
+	</p>
+
+	<hr />
 
 	{% for wine in site.wines-bib %}
 	{% if wine.disabled != true %}
